@@ -5,7 +5,7 @@
 1. [はじめに](#1-はじめに)
 2. [前提条件](#2-前提条件)
 3. [ Docker Engine 環境の構築](#3-docker-engine-環境の構築)
-	- [Docker Engine インストール](#31-docker-engine-インストール)
+	- 3.1. [Docker Engine インストール](#31-docker-engine-インストール)
 	- 3.2. [Docker Compose インストール](#32-docker-compose-インストール)
 	- 3.3. [sudo 権限なしで Docker コマンドを使えるようにする](#33-sudo-権限なしで-docker-コマンドを使えるようにする)
 
@@ -70,7 +70,6 @@ Windows PC をお使いの場合には、以下の環境構築が済んでいる
 	```
 	$ sudo apt install -y \
 	  docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
-
 	```
 
 4. Docker Engine がインストールされたことを確認します
