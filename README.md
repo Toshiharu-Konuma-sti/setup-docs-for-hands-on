@@ -1,1 +1,1 @@
-# system-setup-docs-for-hands-on
+# setup-docs-for-hands-on
