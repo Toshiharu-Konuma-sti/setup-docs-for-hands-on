@@ -2,17 +2,17 @@
 
 ## 目次
 
-- [1. はじめに](#1-はじめに)
-- [2 WSL インストール](#2-wsl-インストール)
-	- [2.1 WSL と Ubuntu のインストール](#21-wsl-と-ubuntu-のインストール)
-	- [2.2 Ubuntu の初回起動後にやっておくべき推奨事項](#22-ubuntu-の初回起動後にやっておくべき推奨事項)
-		- [2.2.1. Ubuntu パッケージ更新と便利ツールインストール](#221-ubuntu-パッケージ更新と便利ツールインストール)
-		- [2.2.2. Windows Terminal インストール](#222-windows-terminal-インストール)
-- [3. WSL アンインストール](#3-wsl-アンインストール)
-	- [3.1. Ubuntu のアンインストール](#31-ubuntu-のアンインストール)
-	- [3.2. WSL まで完全にアンインストール](#32-wsl-まで完全にアンインストール)
-- [4. 運用 Tips](#4-運用-tips)
-	- [4.1. WSL の動作が遅くなったり固まった場合の対処](#41-wsl-の動作が遅くなったり固まった場合の対処)
+1. [はじめに](#1-はじめに)
+2. [WSL インストール](#2-wsl-インストール)
+	- 2.1. [WSL と Ubuntu のインストール](#21-wsl-と-ubuntu-のインストール)
+	- 2.2. [Ubuntu の初回起動後にやっておくべき推奨事項](#22-ubuntu-の初回起動後にやっておくべき推奨事項)
+		- 2.2.1. [Ubuntu パッケージ更新と便利ツールインストール](#221-ubuntu-パッケージ更新と便利ツールインストール)
+		- 2.2.2. [Windows Terminal インストール](#222-windows-terminal-インストール)
+3. [WSL アンインストール](#3-wsl-アンインストール)
+	- 3.1. [Ubuntu のアンインストール](#31-ubuntu-のアンインストール)
+	- 3.2. [WSL まで完全にアンインストール](#32-wsl-まで完全にアンインストール)
+4. [運用 Tips](#4-運用-tips)
+	- 4.1. [WSL の動作が遅くなったり固まった場合の対処](#41-wsl-の動作が遅くなったり固まった場合の対処)
 
 
 ---
@@ -80,7 +80,7 @@
 
 利用者それぞれの好みになりますが、WSL の Ubuntu にログインして使うターミナルとして「Windows Terminal」の利用をお勧めします
 
-- [Windows Terminal - Microsoft Corporation](https://apps.microsoft.com/detail/9n0dx20hk701?rtc=1&hl=ja-jp&gl=JP)<br>
+- [Windows Terminal - Microsoft Corporation](https://apps.microsoft.com/detail/9n0dx20hk701?rtc=1&hl=ja-jp&gl=JP){:target="_blank"}<br>
 	<img src="./image/winstore_win_terminal.png" width="500">
 
 ---
