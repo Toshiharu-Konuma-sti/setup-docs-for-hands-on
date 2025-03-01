@@ -80,7 +80,7 @@
 
 利用者それぞれの好みになりますが、WSL の Ubuntu にログインして使うターミナルとして「Windows Terminal」の利用をお勧めします
 
-- [Windows Terminal - Microsoft Corporation](https://apps.microsoft.com/detail/9n0dx20hk701?rtc=1&hl=ja-jp&gl=JP){:target="_blank"}<br>
+- [Windows Terminal - Microsoft Corporation](https://apps.microsoft.com/detail/9n0dx20hk701?rtc=1&hl=ja-jp&gl=JP)<br>
 	<img src="./image/winstore_win_terminal.png" width="500">
 
 ---

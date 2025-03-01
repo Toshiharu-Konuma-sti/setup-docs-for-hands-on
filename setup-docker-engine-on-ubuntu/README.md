@@ -36,7 +36,7 @@ Windows PC をお使いの場合には、以下の環境構築が済んでいる
 
 ### 3.1. Docker Engine インストール
 
-公式の「[Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/){:target="_blank"}」に記載されている手順をベースに、インストール手順の要点を抽出して記載します
+公式の「[Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/)」に記載されている手順をベースに、インストール手順の要点を抽出して記載します
 
 1. まず最初に Ubuntu（WSL に構築した Ubuntu）へログインします
 
