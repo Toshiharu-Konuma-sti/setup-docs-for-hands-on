@@ -29,9 +29,9 @@ Node.js のインストール方法は、WinGet を使った CLI ベースのイ
 
 Node.js 公式サイトから Windows インストーラー（MSI）をダウンロードします。
 
-1. Node.js の公式サイト「[Node.js — どこでもJavaScriptを使おう](https://nodejs.org/ja)」にアクセスし、ダウンロードページに遷移します。<br>
+1. Node.js の公式サイト「[Node.js — どこでもJavaScriptを使おう](https://nodejs.org)」にアクセスし、ダウンロードページに遷移します。<br>
 	<img src="./image/node-official-site-top.png" width="600">
-	- https://nodejs.org/ja 
+	- https://nodejs.org
 
 2. ダウンロードページの前半部は WinGet を使った CLI ベースのインストール方法の案内のため、後半部の案内を対象にアーキテクチャと OS を選択して「Windows インストーラー(.msi)」をクリックします。<br>
 	<img src="./image/node-official-site-download.png" width="600">
