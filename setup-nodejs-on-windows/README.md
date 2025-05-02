@@ -17,6 +17,7 @@ Windows で JavaScript 実行環境を必要とするハンズオン向けに、
 **利用している環境**
 
 - Windows 10 Professional
+- Windows PowerShell 5.1.19041.5737
 - Node.js v22.15.0
 
 ---
