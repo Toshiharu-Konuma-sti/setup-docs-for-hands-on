@@ -14,7 +14,7 @@
 
 Windows で JavaScript 実行環境を必要とするハンズオン向けに、Node.js をインストールして実行環境を準備します。
 
-**利用している環境**
+**筆者が動かした際の主な構成要素**
 
 - Windows 10 Professional
 - Windows PowerShell 5.1.19041.5737
