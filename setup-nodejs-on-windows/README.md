@@ -86,7 +86,10 @@ Node.js がインストールできたことを確認します。
 2. 続いて Windows のスタートメニュー「W」セクションから「Windows Powershell」を選択して起動します。<br>
 	<img src="./image/windows-start-menu-power-shell.png" width="300">
 
-3. Windows Powershell が起動したら、node、npm、npx の各コマンドのバージョンを確認してインストールされていることを確認します。（バージョン番号は一例です）
+3. Windows Powershell が起動しました。<br>
+	<img src="./image/windows-powershell.png" width="500">
+
+4. コンソールで node、npm、npx の各コマンドのバージョンを確認してインストールされていることを確認します。（バージョン番号は一例です）
 	```
 	PS > node -v
 
