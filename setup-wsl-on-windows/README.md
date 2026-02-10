@@ -1,4 +1,4 @@
-# 初期環境構築: WSL 環境 on Windows 10
+# 初期環境構築: WSL 環境 on Windows
 
 ## 目次
 
