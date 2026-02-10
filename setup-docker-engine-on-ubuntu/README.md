@@ -4,7 +4,7 @@
 
 1. [はじめに](#1-はじめに)
 2. [前提条件](#2-前提条件)
-3. [ Docker Engine 環境の構築](#3-docker-engine-環境の構築)
+3. [Docker Engine 環境の構築](#3-docker-engine-環境の構築)
 	- 3.1. [Docker Engine インストール](#31-docker-engine-インストール)
 	- 3.2. [Docker Compose インストール](#32-docker-compose-インストール)
 	- 3.3. [sudo 権限なしで Docker コマンドを使えるようにする](#33-sudo-権限なしで-docker-コマンドを使えるようにする)
