@@ -6,3 +6,4 @@
 - [初期環境構築: Docker Engine on Ubuntu]( ./setup-docker-engine-on-ubuntu/)
 - [初期環境構築: ユーティリティツール on Ubuntu](./setup-utils-on-ubuntu/)
 - [初期環境構築: Node.js on Windows]( ./setup-nodejs-on-windows/)
+- [初期環境構築: Entra ID Free]( ./setup-entra-id-free/)
