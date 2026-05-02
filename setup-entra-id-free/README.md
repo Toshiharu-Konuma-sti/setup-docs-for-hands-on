@@ -49,12 +49,14 @@
 1. 画面右側からスライドしてきた「クライアントシークレットの追加」ウィンドウにて、項目を入力して「追加」ボタンをクリックします。
 
    <img src="./image/entra-free-client-secret-add-input.png" width="600">
+   
    - 説明：例）handson-secret
    - 有効期間：「推奨: 180 日 (6か月)」
 
 1. 追加直後に発行されている 「値（Value）」 をコピーして控えます。
 
    <img src="./image/entra-free-client-secret-issued.png" width="600">
+
    - 「シークレット ID」ではなく、必ず「値」 の方をコピーします。一度画面を閉じると確認できず、二度と控えることができません。
 
 ### 3-3. API のアクセス許可（Scope）確認
