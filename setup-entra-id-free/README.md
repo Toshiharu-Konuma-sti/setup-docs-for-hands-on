@@ -12,10 +12,74 @@
 
 ---
 
-## 2. テナント ID 取得
+## テナント作成
 
-1. トップページ（ホーム）に表示されている「テナント ID」を取得します。
-	<img src="./image/entra-free-tenant-id.png" width="600">
+1. Entra 管理センターにアクセスすると、所属企業のテナントであるため、一般的な社員はアクセス権が無く拒否されます。
+
+	<img src="./image/entra-free-biz-acct-add-tenant-001.png" width="600">
+
+1. Entra ID でハンズオンするために独自のテナントを作ります。左上のワッフルメニューから「Azure」を選びます。
+
+	<img src="./image/entra-free-biz-acct-add-tenant-002.png" width="600">
+
+1. Azure サービスから「リソースの作成」を選びます。
+
+	<img src="./image/entra-free-biz-acct-add-tenant-101.png" width="600">
+
+1. 検索ボックスに「entra id」を入力して表示されるリソースを絞り込みます。
+
+	<img src="./image/entra-free-biz-acct-add-tenant-102.png" width="600">
+
+1. リソース一覧に「Microsoft Entra ID」が現れたら「作成 > Microsoft Entar ID」を選択してテナントの作成に進みます。
+
+	<img src="./image/entra-free-biz-acct-add-tenant-103.png" width="600">
+
+1. 「Microsoft Entra ID」を選択して「次: 構成 >」ボタンをクリックします。
+
+	<img src="./image/entra-free-biz-acct-add-tenant-104.png" width="600">
+
+1. 作成するテナント情報を入力して「次: 確認および作成 >」ボタンをクリックします。
+
+	<img src="./image/entra-free-biz-acct-add-tenant-105.png" width="600">
+
+   - 組織名：テナント名として表示される名称
+   - 初期ドメイン名：{ドメイン名}.onmicrosoft.com
+   - 国/地域：日本
+
+1. 「作成」ボタンをクリックしてテナントの作成を開始します。
+
+	<img src="./image/entra-free-biz-acct-add-tenant-106.png" width="600">
+
+1. 作成を進める過程で CAPTCHA を求められたら従い進めます。
+
+	<img src="./image/entra-free-biz-acct-add-tenant-107.png" width="600">
+
+1. CAPTCHA が通過したら作成までしばらく待ちます。
+
+	<img src="./image/entra-free-biz-acct-add-tenant-108.png" width="600">
+
+1. 作成が完了すると作成したテナントへ遷移するリンクが表示されるので、クリックして進みます。
+
+	<img src="./image/entra-free-biz-acct-add-tenant-109.png" width="600">
+
+1. 認証を求められたら従い進めます。
+
+	<img src="./image/entra-free-biz-acct-add-tenant-201.png" width="600">
+
+	<img src="./image/entra-free-biz-acct-add-tenant-205.png" width="600">
+
+1. 認証が終わると Entra 管理センターに移ってきますが、企業テナントがアクティブであるため引き続き拒否されています。作ったテナントをアクティブにするため、右上のアカウントアイコンをクリックして「ディレクトリの切り替え」を選択します。
+
+	<img src="./image/entra-free-biz-acct-add-tenant-301.png" width="600">
+
+1. ディレクトリ一覧から先ほど作成したテナント名を探して「切り替え」ボタンをクリックします。
+
+	<img src="./image/entra-free-biz-acct-add-tenant-302.png" width="600">
+
+1. ハンズオン用に新たに作成したテナントをアクティブに Entra 管理センターに遷移できました。OAuth 実装などでテナント ID が必要な場合には、この画面に表示されている ID から控えます。
+
+	<img src="./image/entra-free-biz-acct-add-tenant-401.png" width="600">
+
 
 ## 3. アプリケーション作成
 
