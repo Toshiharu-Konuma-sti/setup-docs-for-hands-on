@@ -227,6 +227,8 @@ Entra ID はエンプラ市場において IdP として圧倒的なシェアを
 
 - 【参考】確認時の Spring Boot 設定ファイル (application.yaml)
 
+   「4-1. [アプリへ独自スコープの追加](#4-1-アプリへ独自スコープの追加)」章で控えたスコープを使って OAuth の認可リクエストを開始できるように設定します。
+
    ```
    spring:
      cloud:
@@ -250,7 +252,7 @@ Entra ID はエンプラ市場において IdP として圧倒的なシェアを
    :
    ```
 
-- 実際に Entra IDから Token を発行して Payload を確認
+- 実際に Entra ID から Access Token を発行して Payload を見ると、「roles」Claim にロールが載っていることが確認できます。
 
    ```
    {
@@ -262,7 +264,7 @@ Entra ID はエンプラ市場において IdP として圧倒的なシェアを
    "idp": "https://sts.windows.net/47d0c6xx-xxxx-xxxx-xxxx-xxxxxxf26547/",
    "name": "太郎 サイオス",
    "oid": "c78e37xx-xxxx-xxxx-xxxx-xxxxxx95625a",
-   "preferred_username": "t-konuma@sios.com",
+   "preferred_username": "t-sios@example.com",
    "rh": "1.AWsAePpvzIYO4EavZlLXmU29m1OHXrn4cH9OmYlGUNO-42cAAFRrAA.",
    "roles": [
       "my-viewer"
