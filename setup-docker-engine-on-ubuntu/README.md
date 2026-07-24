@@ -6,8 +6,7 @@
 2. [前提条件](#2-前提条件)
 3. [Docker Engine 環境の構築](#3-docker-engine-環境の構築)
 	- 3.1. [Docker Engine インストール](#31-docker-engine-インストール)
-	- 3.2. [Docker Compose インストール](#32-docker-compose-インストール)
-	- 3.3. [sudo 権限なしで Docker コマンドを使えるようにする](#33-sudo-権限なしで-docker-コマンドを使えるようにする)
+	- 3.2. [sudo 権限なしで Docker コマンドを使えるようにする](#32-sudo-権限なしで-docker-コマンドを使えるようにする)
 
 ---
 
@@ -53,17 +52,16 @@ Windows PC をお使いの場合には、以下の環境構築が済んでいる
 
 	- Docker の apt リポジトリ情報を設定します
 		```
-		$ echo \
-		  "deb [arch=$(dpkg --print-architecture) \
-		  signed-by=/etc/apt/keyrings/docker.asc] \
-		  https://download.docker.com/linux/ubuntu \
-		  $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
-		  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+		$ sudo tee /etc/apt/sources.list.d/docker.sources <<EOF
+		Types: deb
+		URIs: https://download.docker.com/linux/ubuntu
+		Suites: $(. /etc/os-release && echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}")
+		Components: stable
+		Architectures: $(dpkg --print-architecture)
+		Signed-By: /etc/apt/keyrings/docker.asc
+		EOF
 
-		$ cat /etc/apt/sources.list.d/docker.list
-		  deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu jammy stable
-
-		$ sudo apt-get update
+		$ sudo apt update
 		```
 
 3. apt で Docker の最新バージョンをインストールします
@@ -81,14 +79,7 @@ Windows PC をお使いの場合には、以下の環境構築が済んでいる
 	  :
 	```
 
-### 3.2. Docker Compose インストール
-
-- ハンズオンでは複数コンテナを一気に構築するため Docker Compose も apt でインストールします
-	```
-	$ sudo apt install -y docker-compose
-	```
-
-### 3.3. sudo 権限なしで Docker コマンドを使えるようにする
+### 3.2. sudo 権限なしで Docker コマンドを使えるようにする
 
 - ログインアカウントを「docker」グループへグループ登録します
 	```
